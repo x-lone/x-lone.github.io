@@ -3,21 +3,14 @@
     padding: 0;
 }
 
-article {
-    margin: 20px auto;
-    width: 75%;
-    overflow: hidden;
-
+body {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 
-div {
-    overflow: hidden;
-}
-
-.profile {
-    background-color: blue;
+article {
+    margin: 20px auto;
+    width: 75%;
 }
 
 .toptriangle, .bottomtriangle {
@@ -32,4 +25,24 @@ div {
 
 .bottomtriangle {
     clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+}
+
+div {
+    overflow: hidden;
+}
+
+.profile {
+    background-color: blue;
+}
+
+.profile img {
+    width: 100%;
+    max-width: 350px;
+    float: left;
+    margin: 20px 20px 20px 20px;
+}
+
+.profile p {
+    font-size: 18px;
+    margin: 50px;
 }
