@@ -12,16 +12,38 @@
 
 body {
     font-family: "Roboto Mono", monospace;
-    background-color: rgb(142, 168, 195);
-    color: rgb(22, 25, 37);
+    background-color: rgb(15, 17, 21);
+    color: rgb(228, 228, 228);
 }
 
 header {
-    padding: 100px;
-    background-color: rgb(22, 25, 37);
+    padding: 75px;
+    background-color: rgb(28, 31, 38);
     text-align: center;
-    color: rgb(142, 168, 195);
-    font-size: 45px;
+}
+
+header h1 {
+    font-size: 90px;
+}
+
+header h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 20%;
+    border-radius: 50%;
+    max-width: 350px;
+    float: left;
+    margin: 20px 20px 20px 0px;
+}
+
+header p {
+    color: rgb(137, 137, 169);
+    margin: 20px auto;
+    width: 50%;
+    font-size: 20px;
 }
 
 ul {
@@ -29,7 +51,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(22, 25, 37);
+    background-color: rgb(28, 31, 38);
 
     position: sticky;
     top: 0;
@@ -42,14 +64,14 @@ li {
 
 li a {
     display: block;
-    color: rgb(142, 168, 195);
+    color: rgb(228, 228, 228);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: rgb(15, 17, 21);
 }
 
 #profile, #resume {
@@ -59,35 +81,7 @@ li a:hover {
 article {
     margin: 20px auto;
     width: 75%;
-}
-
-.toptriangle, .bottomtriangle {
-    width: 100%;
-    height: 60px;
-    background-color: rgb(22, 25, 37);
-}
-
-.toptriangle {
-    clip-path: polygon(100% 100%, 100% 0%, 0% 100%);
-}
-
-.bottomtriangle {
-    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
-}
-
-div {
-    overflow: hidden;
-}
-
-.profile {
-    background-color: rgb(64, 110, 142);
-}
-
-.profile img {
-    width: 100%;
-    max-width: 350px;
-    float: left;
-    margin: 20px 20px 20px 0px;
+    padding-top: 50px;
 }
 
 .profile h2 {
@@ -107,8 +101,7 @@ div {
 
 footer {
     padding: 20px;
-    background-color: rgb(22, 25, 37);
-    color: rgb(142, 168, 195);
+    background-color: rgb(28, 31, 38);
     text-align: center;
 }
 
