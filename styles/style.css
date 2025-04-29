@@ -85,6 +85,11 @@ article {
     padding-top: 50px;
 }
 
+.profile, .resume {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .profile h2 {
     text-align: center;
 }
@@ -98,6 +103,9 @@ article {
     width: 80%;
     margin: auto;
     display: table;
+
+    outline: 8px solid rgb(28, 31, 38);
+    border-radius: 20px;
 }
 
 .column {
@@ -109,14 +117,30 @@ article {
     text-align: center;
 }
 
+.column ul {
+    padding-left: 20%;
+}
+
 .column li {
     font-size: 20px;
     margin: 12px;
 }
 
+.column:nth-child(even) {
+    background-color: rgb(28, 31, 38);
+}
+
 .column h3 {
     font-size: 18px;
     margin: 10px 0 20px 0;
+    color: rgb(137, 137, 169);
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+    border: 5px solid rgb(28, 31, 38);
+    border-radius: 10px;
 }
 
 .resume h2 {
