@@ -15,6 +15,7 @@ body {
     font-family: "Roboto Mono", monospace;
     background-color: rgb(15, 17, 21);
     color: rgb(210, 210, 210);
+    text-align: center;
 }
 
 h1 {
@@ -33,7 +34,6 @@ header {
     padding: 75px;
     padding-bottom: 20px;
     background-color: rgb(28, 31, 38);
-    text-align: center;
 }
 
 header h1 {
@@ -72,7 +72,6 @@ header p {
 .navbar li a {
     display: block;
     color: rgb(228, 228, 228);
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -96,10 +95,6 @@ article {
     margin-bottom: 100px;
 }
 
-.profile h2 {
-    text-align: center;
-}
-
 /* .profile img {
     width: 20%;
     border-radius: 25%;
@@ -111,7 +106,6 @@ article {
 
 .profile p {
     font-size: 18px;
-    text-align: center;
     margin: 50px;
 }
 
@@ -130,10 +124,6 @@ article {
     width: 33.33%;
 }
 
-.column h3 {
-    text-align: center;
-}
-
 .column ul {
     padding-left: 15%;
 }
@@ -141,6 +131,7 @@ article {
 .column li {
     font-size: 20px;
     margin: 12px;
+    text-align: left;
 }
 
 .column li:nth-child(even) {
@@ -172,8 +163,7 @@ hr {
     border-radius: 10px;
 }
 
-.resume h2 {
-    text-align: center;
+.resume h3 {
     margin-bottom: 50px;
 }
 
@@ -186,7 +176,6 @@ hr {
 footer {
     padding: 20px;
     background-color: rgb(28, 31, 38);
-    text-align: center;
 }
 
 footer p {
