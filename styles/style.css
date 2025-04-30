@@ -87,7 +87,7 @@ article {
 }
 
 .profile, .resume {
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 100px;
 }
 
@@ -103,6 +103,7 @@ article {
 .row {
     width: 80%;
     margin: auto;
+    margin-top: 80px;
     display: table;
 
     outline: 8px solid rgb(28, 31, 38);
@@ -119,12 +120,25 @@ article {
 }
 
 .column ul {
-    padding-left: 20%;
+    padding-left: 15%;
 }
 
 .column li {
     font-size: 20px;
     margin: 12px;
+}
+
+.column li:nth-child(even) {
+    color: rgb(167, 158, 200);
+}
+
+.column li span {
+    font-size: 10px;
+    color: rgb(137, 137, 169);
+}
+
+.column li:nth-child(even) span {
+    color: rgb(90, 82, 121);
 }
 
 .column:nth-child(even) {
@@ -146,6 +160,7 @@ hr {
 
 .resume h2 {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .resume embed {
