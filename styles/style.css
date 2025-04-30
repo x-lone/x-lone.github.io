@@ -14,11 +14,24 @@
 body {
     font-family: "Roboto Mono", monospace;
     background-color: rgb(15, 17, 21);
-    color: rgb(228, 228, 228);
+    color: rgb(210, 210, 210);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: rgb(230, 230, 230);
+}
+
+h3 {
+    color: rgb(200, 200, 200);
 }
 
 header {
     padding: 75px;
+    padding-bottom: 20px;
     background-color: rgb(28, 31, 38);
     text-align: center;
 }
@@ -30,18 +43,10 @@ header h1 {
 header h2 {
     font-size: 16px;
     margin-bottom: 20px;
-}
-
-header img {
-    width: 20%;
-    border-radius: 50%;
-    max-width: 350px;
-    float: left;
-    margin: 20px 20px 20px 0px;
+    color: rgb(255, 210, 80);
 }
 
 header p {
-    color: rgb(137, 137, 169);
     margin: 20px auto;
     width: 50%;
     font-size: 20px;
@@ -95,8 +100,18 @@ article {
     text-align: center;
 }
 
+/* .profile img {
+    width: 20%;
+    border-radius: 25%;
+    max-width: 250px;
+    margin: auto;
+    margin-top: 25px;
+    display: block;
+} */
+
 .profile p {
     font-size: 18px;
+    text-align: center;
     margin: 50px;
 }
 
@@ -129,16 +144,16 @@ article {
 }
 
 .column li:nth-child(even) {
-    color: rgb(167, 158, 200);
+    color: rgb(180, 180, 180);
 }
 
 .column li span {
     font-size: 10px;
-    color: rgb(137, 137, 169);
+    color: rgb(180, 180, 180);
 }
 
 .column li:nth-child(even) span {
-    color: rgb(90, 82, 121);
+    color: rgb(130, 130, 130);
 }
 
 .column:nth-child(even) {
@@ -148,7 +163,6 @@ article {
 .column h3 {
     font-size: 18px;
     margin: 10px 0 20px 0;
-    color: rgb(137, 137, 169);
 }
 
 hr {
@@ -177,4 +191,25 @@ footer {
 
 footer p {
     padding: 20px;
+}
+
+@media only screen and (max-width: 1000px) { 
+    header {
+        width: 100%;
+    }
+
+    header p {
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    .row {
+        width: 100%;
+    }
+    .column {
+        width: 100%;
+    }
 }
